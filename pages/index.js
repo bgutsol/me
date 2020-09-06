@@ -47,10 +47,11 @@ export default function Home() {
 
         <div className={styles.description}>
           <p>Hey! I’m Bohdan.</p>
-          <p>I’m front-end engineer with a passion for design.</p>
+          <p>I’m a front-end engineer with a passion for design.</p>
           <p>
-            I’m always in searching for perfection, clarity and simplicity in
-            objects and I aim for it in my work.
+            I recognize and admire clarity, simplicity and usefulness in the
+            objects around me. This is what <br />I strive to re-create in my
+            work.
           </p>
         </div>
 
