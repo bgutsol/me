@@ -6,22 +6,6 @@ export const config = {
 };
 
 export default function Home() {
-  // document.querySelector("#theme-btn").addEventListener("click", () => {
-  //   var themes = [
-  //     "default",
-  //     "dark",
-  //     "red",
-  //     "blue",
-  //     "yellow",
-  //     "green",
-  //     "violet",
-  //   ];
-  //   var dataTheme = document.documentElement.dataset.theme;
-  //   themes = themes.filter((theme) => theme !== dataTheme);
-  //   document.documentElement.dataset.theme =
-  //     themes[Math.floor(Math.random() * themes.length)];
-  // });
-
   return (
     <div className={styles.container}>
       <Head>
@@ -71,16 +55,6 @@ export default function Home() {
           <li className={styles.linkItem}>
             <a href="https://github.com/bgutsol" target="_blank">
               github
-            </a>
-          </li>
-          <li className={styles.linkItem}>
-            <a href="https://twitter.com/bgutsol" target="_blank">
-              twitter
-            </a>
-          </li>
-          <li className={styles.linkItem}>
-            <a href="/CV_BohdanHutsol.pdf" target="_blank">
-              CV
             </a>
           </li>
         </ul>
